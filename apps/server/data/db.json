@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "id": "a6afebff-1b23-40d6-9c8f-73af954494e8",
+      "email": "resident@medivision.com",
+      "password_hash": "$2a$10$zn4aFdeyAJo8kxlNM3j2JO5f2E7fNG6sg04Y5RgJkAVsuFQIXs2YG",
+      "name": "Dr. Resident",
+      "role": "resident",
+      "department": "Radiology",
+      "created_at": "2026-09-03T15:20:55.399Z"
+    },
+    {
+      "id": "ca7c96c9-07a7-41f5-b111-a1cd1ac718b9",
+      "email": "attending@medivision.com",
+      "password_hash": "$2a$10$zn4aFdeyAJo8kxlNM3j2JO5f2E7fNG6sg04Y5RgJkAVsuFQIXs2YG",
+      "name": "Dr. Attending",
+      "role": "attending",
+      "department": "Radiology",
+      "created_at": "2026-09-03T15:20:55.401Z"
+    },
+    {
+      "id": "6701c04a-db18-4c62-8211-a923f2840436",
+      "email": "admin@medivision.com",
+      "password_hash": "$2a$10$zn4aFdeyAJo8kxlNM3j2JO5f2E7fNG6sg04Y5RgJkAVsuFQIXs2YG",
+      "name": "Admin User",
+      "role": "admin",
+      "department": "IT",
+      "created_at": "2026-09-03T15:20:55.401Z"
+    }
+  ],
+  "patients": [],
+  "studies": [],
+  "reports": [],
+  "report_history": [],
+  "templates": [
+    {
+      "id": "ec4f605e-3c02-40bb-9f8b-b33762f6f114",
+      "name": "Normal Chest CT",
+      "modality": "CT",
+      "body_part": "Chest",
+      "technique": "CT chest with IV contrast. Images acquired in helical mode with 1.25mm slice thickness.",
+      "normal_findings": "The lungs are clear without focal consolidation, pleural effusion, or pneumothorax. The mediastinum is unremarkable.",
+      "normal_impression": "No acute cardiopulmonary abnormality.",
+      "sections": "[]",
+      "created_by": "system",
+      "created_at": "2026-09-03T15:20:55.401Z"
+    },
+    {
+      "id": "95a2e40e-12ab-4ae2-b91b-917c5f310802",
+      "name": "Normal Brain MRI",
+      "modality": "MRI",
+      "body_part": "Brain",
+      "technique": "MRI brain with and without gadolinium. Sequences include T1, T2, FLAIR, DWI, and ADC.",
+      "normal_findings": "Normal brain parenchyma without mass effect, midline shift, or abnormal signal.",
+      "normal_impression": "Normal MRI brain.",
+      "sections": "[]",
+      "created_by": "system",
+      "created_at": "2026-09-03T15:20:55.401Z"
+    },
+    {
+      "id": "f2ed21ad-4065-4dcd-a90e-94471cd9b7ad",
+      "name": "Normal Abdominal US",
+      "modality": "US",
+      "body_part": "Abdomen",
+      "technique": "Ultrasound of the abdomen with graded compression.",
+      "normal_findings": "Liver, gallbladder, pancreas, spleen, and kidneys are unremarkable. No free fluid.",
+      "normal_impression": "Normal abdominal ultrasound.",
+      "sections": "[]",
+      "created_by": "system",
+      "created_at": "2026-09-03T15:20:55.401Z"
+    },
+    {
+      "id": "0ea61ffd-2e81-4c26-ade3-0d34e6d230e2",
+      "name": "Normal Chest X-Ray",
+      "modality": "XR",
+      "body_part": "Chest",
+      "technique": "PA and lateral chest radiographs.",
+      "normal_findings": "The lungs are clear. Cardiomediastinal silhouette is normal. No pleural effusion or pneumothorax.",
+      "normal_impression": "Normal chest radiograph.",
+      "sections": "[]",
+      "created_by": "system",
+      "created_at": "2026-09-03T15:20:55.401Z"
+    }
+  ],
+  "audit_events": [],
+  "critical_findings": []
+}
